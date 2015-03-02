@@ -21,6 +21,7 @@
     "recipe[apt::default]",
     "recipe[git::source]",
     "recipe[tig::default]",
+    "recipe[vim::default]",
     "recipe[apache2::default]",
     "recipe[apache2::mod_rewrite]",
     "recipe[apache2::mod_headers]",

@@ -8,6 +8,7 @@ DEPENDENCIES
     revision: 04d03cc5d6f4f5c3e3f82edd3314128afaadbe89
     branch: patch-1
   tig
+  vim
 
 GRAPH
   apache2 (3.0.1)
@@ -35,6 +36,7 @@ GRAPH
     apt (>= 2.4.0)
   tig (0.1.1)
     git (>= 0.0.0)
+  vim (1.1.2)
   windows (1.36.6)
     chef_handler (>= 0.0.0)
   yum (3.5.3)
