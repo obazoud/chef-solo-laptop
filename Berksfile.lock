@@ -1,6 +1,7 @@
 DEPENDENCIES
   apache2
   apt
+  chrome
   git
   sublime-text
     git: https://github.com/obazoud/sublime-text-cookbook.git
@@ -14,6 +15,7 @@ GRAPH
   apt (2.6.1)
   build-essential (2.1.3)
   chef_handler (1.1.6)
+  chrome (1.0.4)
   dmg (2.2.2)
   git (4.1.0)
     build-essential (>= 0.0.0)
