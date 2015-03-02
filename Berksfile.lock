@@ -3,6 +3,10 @@ DEPENDENCIES
   apt
   chrome
   git
+  idea
+    git: https://github.com/vptheron/chef-idea.git
+    revision: a62b1c4cd93077c87836b005ffade3b379b378a1
+    ref: a62b1c4
   java
   sublime-text
     git: https://github.com/obazoud/sublime-text-cookbook.git
@@ -27,6 +31,8 @@ GRAPH
     windows (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
+  idea (0.1.0)
+    java (>= 0.0.0)
   iptables (0.14.1)
   java (1.31.0)
   logrotate (1.8.0)

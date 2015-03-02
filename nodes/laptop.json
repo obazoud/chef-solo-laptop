@@ -6,6 +6,11 @@
     "version": "2.3.1",
     "checksum": "599bab1d3ae21d890fb41d4f1de871f5c106cf348d1394b0a537b5388c99a2d2"
   },
+  "idea": {
+    "user": "obazoud",
+    "version": "14.0.3",
+    "setup_dir": "/opt"
+  },
   "java": {
     "install_flavor": "oracle",
     "jdk_version": "8",
@@ -36,7 +41,8 @@
     "recipe[apache2::mod_status]",
     "recipe[chrome::default]",
     "recipe[sublime-text::default]",
-    "recipe[java::default]"
+    "recipe[java::default]",
+    "recipe[idea::default]"
   ]
 }
 
