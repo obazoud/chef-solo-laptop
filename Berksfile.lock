@@ -3,6 +3,7 @@ DEPENDENCIES
   apt
   chrome
   git
+  java
   sublime-text
     git: https://github.com/obazoud/sublime-text-cookbook.git
     revision: 04d03cc5d6f4f5c3e3f82edd3314128afaadbe89
@@ -27,6 +28,7 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   iptables (0.14.1)
+  java (1.31.0)
   logrotate (1.8.0)
   runit (1.5.16)
     build-essential (>= 0.0.0)
