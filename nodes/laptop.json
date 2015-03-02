@@ -11,12 +11,16 @@
       "generation": "3"
     }
   },
+  "tig": {
+    "version": "2.0.3"
+  },
   "version": {
     "generation": "3"
   },
   "run_list":[
     "recipe[apt::default]",
     "recipe[git::source]",
+    "recipe[tig::default]",
     "recipe[apache2::default]",
     "recipe[apache2::mod_rewrite]",
     "recipe[apache2::mod_headers]",
