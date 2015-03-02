@@ -1,0 +1,25 @@
+{
+  "git": {
+    "version": "2.3.1",
+    "checksum": "599bab1d3ae21d890fb41d4f1de871f5c106cf348d1394b0a537b5388c99a2d2"
+  },
+  "sublime-text": {
+    "version": {
+      "generation": "3"
+    }
+  },
+  "version": {
+    "generation": "3"
+  },
+  "run_list":[
+    "recipe[apt::default]",
+    "recipe[git::source]",
+    "recipe[apache2]",
+    "recipe[apache2::mod_rewrite]",
+    "recipe[apache2::mod_headers]",
+    "recipe[apache2::mod_deflate]",
+    "recipe[apache2::mod_status]",
+    "recipe[sublime-text::default]"
+  ]
+}
+
