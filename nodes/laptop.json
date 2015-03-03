@@ -29,6 +29,14 @@
       "checksum": "8c190264bdf591ff9f1268dc0ad940a2726f9e958e367716a09b8aaa7e74a755"
     }
   },
+  "oh_my_zsh": {
+    "users": [{
+      "login": "obazoud"
+    }],
+    "repository": "https://github.com/obazoud/oh-my-zsh.git",
+    "reference": "develop",
+    "revision": "b91e328902983034b6212241b2bcc1fe8ccb34d8"
+  },
   "sublime-text": {
     "version": {
       "generation": "3"
@@ -51,6 +59,7 @@
     "recipe[git::source]",
     "recipe[tig::default]",
     "recipe[vim::default]",
+    "recipe[oh_my_zsh::default]",
     "recipe[apache2::default]",
     "recipe[apache2::mod_rewrite]",
     "recipe[apache2::mod_headers]",

@@ -8,6 +8,7 @@ cookbook 'idea', git:'https://github.com/vptheron/chef-idea.git', ref:'a62b1c4cd
 cookbook 'git'
 cookbook 'java'
 cookbook 'maven'
+cookbook 'oh_my_zsh', git:'https://github.com/obazoud/oh-my-zsh-chef.git', branch:'develop'
 cookbook 'sublime-text', git:'https://github.com/obazoud/sublime-text-cookbook.git', branch:'patch-1'
 cookbook 'tig'
 cookbook 'vagrant'

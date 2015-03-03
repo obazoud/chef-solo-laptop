@@ -10,6 +10,10 @@ DEPENDENCIES
     ref: a62b1c4
   java
   maven
+  oh_my_zsh
+    git: https://github.com/obazoud/oh-my-zsh-chef.git
+    revision: 184d784a65c11a9e58243b7b875557e1c16c514d
+    branch: develop
   sublime-text
     git: https://github.com/obazoud/sublime-text-cookbook.git
     revision: 04d03cc5d6f4f5c3e3f82edd3314128afaadbe89
@@ -49,6 +53,8 @@ GRAPH
     ark (~> 0.4)
     java (~> 1.13)
     windows (>= 0.0.0)
+  oh_my_zsh (0.0.1)
+    git (>= 0.0.0)
   runit (1.5.16)
     build-essential (>= 0.0.0)
     yum (~> 3.0)
