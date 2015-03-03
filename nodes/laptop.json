@@ -21,6 +21,14 @@
       "accept_oracle_download_terms": true
     }
   },
+  "maven": {
+    "install_java": false,
+    "m2_home": "/opt/maven",
+    "3": {
+      "version": "3.2.5",
+      "checksum": "8c190264bdf591ff9f1268dc0ad940a2726f9e958e367716a09b8aaa7e74a755"
+    }
+  },
   "sublime-text": {
     "version": {
       "generation": "3"
@@ -51,6 +59,7 @@
     "recipe[chrome::default]",
     "recipe[sublime-text::default]",
     "recipe[java::default]",
+    "recipe[maven::default]",
     "recipe[idea::default]",
     "recipe[vagrant::default]",
     "recipe[virtualbox::default]"
