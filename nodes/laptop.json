@@ -1,4 +1,7 @@
 {
+  "build-essential": {
+    "compile_time": true
+  },
   "chrome": {
     "track": "beta"
   },
@@ -29,8 +32,14 @@
   "version": {
     "generation": "3"
   },
+  "vagrant": {
+    "version": "1.7.2",
+    "url": "https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.2_x86_64.deb",
+    "checksum": "9d7f1c587134011e2d5429eb21b6c0e95487f52e6d6d47c03ecc82cbeee73968"
+  },
   "run_list":[
     "recipe[apt::default]",
+    "recipe[build-essential::default]",
     "recipe[git::source]",
     "recipe[tig::default]",
     "recipe[vim::default]",
@@ -42,7 +51,9 @@
     "recipe[chrome::default]",
     "recipe[sublime-text::default]",
     "recipe[java::default]",
-    "recipe[idea::default]"
+    "recipe[idea::default]",
+    "recipe[vagrant::default]",
+    "recipe[virtualbox::default]"
   ]
 }
 

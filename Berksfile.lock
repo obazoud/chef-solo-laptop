@@ -1,6 +1,7 @@
 DEPENDENCIES
   apache2
   apt
+  build-essential
   chrome
   git
   idea
@@ -13,7 +14,9 @@ DEPENDENCIES
     revision: 04d03cc5d6f4f5c3e3f82edd3314128afaadbe89
     branch: patch-1
   tig
+  vagrant
   vim
+  virtualbox
 
 GRAPH
   apache2 (3.0.1)
@@ -44,7 +47,16 @@ GRAPH
     apt (>= 2.4.0)
   tig (0.1.1)
     git (>= 0.0.0)
+  vagrant (0.2.2)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
   vim (1.1.2)
+  virtualbox (1.0.3)
+    apache2 (>= 0.0.0)
+    apt (>= 0.0.0)
+    dmg (>= 0.0.0)
+    windows (>= 0.0.0)
+    yum (~> 3.1)
   windows (1.36.6)
     chef_handler (>= 0.0.0)
   yum (3.5.3)
