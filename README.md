@@ -1,4 +1,4 @@
-* install ChefDK
+* install [ChefDK](https://downloads.chef.io/chef-dk/ubuntu/#/)
 * export PATH="/opt/chefdk/embedded/bin:${HOME}/.chefdk/gem/ruby/2.1.0/bin:$PATH"
 * sudo chown $USER:$USER -R /opt/chefdk
 * bundle
